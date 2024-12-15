@@ -1,7 +1,6 @@
 #!/bin/bash
 # Prerequires: git clone https://github.com/yp-ww/ParrotOS.git
 
-cd $HOME
 sudo apt update
 
 # Create Tools directory
