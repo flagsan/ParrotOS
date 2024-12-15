@@ -9,6 +9,7 @@ mkdir -p ~/Tools/Windows
 mkdir -p ~/Tools/Common
 
 # Install Poetry dependencies
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 cp ./poetry.lock ~/Tools
 cp ./pyproject.toml ~/Tools
 poetry --directory ~/Tools install
