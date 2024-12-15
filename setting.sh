@@ -21,12 +21,11 @@ mkdir -p ~/Tools/Windows
 mkdir -p ~/Tools/Common
 
 # --- Linux --- #
-# Install pspy binaries
+# Pspy
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 -O ~/Tools/Linux/pspy32
-chmod +x ~/Tools/Linux/pspy32
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -O ~/Tools/Linux/pspy64
 
-# Install chisel binaries
+# Chisel
 wget https://github.com/jpillora/chisel/releases/download/v1.10.1/chisel_1.10.1_linux_amd64.gz -O ~/Tools/Linux/chisel_1.10.1_linux_amd64.gz
 gunzip ~/Tools/Linux/chisel_1.10.1_linux_amd64.gz
 chmod +x ~/Tools/Linux/chisel_1.10.1_linux_amd64
@@ -41,7 +40,7 @@ wget https://download.sysinternals.com/files/PSTools.zip -O ~/Tools/Windows/PSTo
 unzip ~/Tools/Windows/PSTools.zip -d ~/Tools/Windows/PSTools
 rm ~/Tools/Windows/PSTools.zip
 
-# pypykatz
+# Pypykatz
 python3 -m venv myenv
 source ~/myenv/bin/activate
 pip3 install pypykatz
