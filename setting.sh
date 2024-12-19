@@ -24,7 +24,8 @@ sudo apt install -y \
   jd-gui \
   cadaver \
   peass \
-  exploitdb
+  exploitdb \
+  bloodhound
 
 # --- Linux --- #
 # Install pspy binaries
