@@ -25,7 +25,8 @@ sudo apt install -y \
   cadaver \
   peass \
   exploitdb \
-  bloodhound
+  bloodhound \
+  dnsrecon
 
 # --- Linux --- #
 # Install pspy binaries
