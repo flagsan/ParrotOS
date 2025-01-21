@@ -27,7 +27,8 @@ sudo apt install -y \
   exploitdb \
   bloodhound \
   dnsrecon \
-  freerdp2-x11
+  freerdp2-x11 \
+  snmp
 
 # --- Linux --- #
 # Install pspy binaries
