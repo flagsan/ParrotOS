@@ -28,7 +28,8 @@ sudo apt install -y \
   bloodhound \
   dnsrecon \
   freerdp2-x11 \
-  snmp
+  snmp \
+  exiftool
 
 # --- Linux --- #
 # Install pspy binaries
