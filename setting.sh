@@ -29,7 +29,8 @@ sudo apt install -y \
   dnsrecon \
   freerdp2-x11 \
   snmp \
-  exiftool
+  exiftool \
+  powershell-empire
 
 # --- Linux --- #
 # Install pspy binaries
