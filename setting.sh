@@ -30,7 +30,8 @@ sudo apt install -y \
   freerdp2-x11 \
   snmp \
   exiftool \
-  powershell-empire
+  powershell-empire \
+  mingw-w64
 
 # --- Linux --- #
 # Install pspy binaries
