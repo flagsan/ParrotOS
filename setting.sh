@@ -33,6 +33,8 @@ sudo apt install -y \
   powershell-empire \
   mingw-w64
 
+sudo apt-get clean
+
 # --- Linux --- #
 # Install pspy binaries
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy32 -O ~/Tools/Linux/pspy32
