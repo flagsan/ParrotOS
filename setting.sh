@@ -32,7 +32,16 @@ sudo apt install -y \
   exiftool \
   powershell-empire \
   mingw-w64
+  
+sudo apt-get clean
 
+# install powershell
+# https://learn.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.5
+wget -q https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+sudo apt-get update
+sudo apt-get install -y powershell
 sudo apt-get clean
 
 # --- Linux --- #
