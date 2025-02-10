@@ -1,7 +1,7 @@
 #!/bin/bash
 # Prerequires: git clone https://github.com/flagsan/ParrotOS.git
 
-sudo apt-get update
+sudo apt update
 
 # Create Tools directory
 mkdir -p ~/Tools/Linux
@@ -15,7 +15,7 @@ cp ./pyproject.toml ~/Tools
 poetry --directory ~/Tools install
 
 # Install apt packages
-sudo apt-get install -y \
+sudo apt install -y \
   seclists \
   enum4linux-ng \
   ffuf \
@@ -33,7 +33,7 @@ sudo apt-get install -y \
   powershell-empire \
   mingw-w64
   
-sudo apt-get clean
+sudo apt clean
 
 # install powershell
 # https://learn.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.5
