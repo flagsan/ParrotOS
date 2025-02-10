@@ -1,7 +1,7 @@
 #!/bin/bash
 # Prerequires: git clone https://github.com/flagsan/ParrotOS.git
 
-sudo apt update
+sudo apt-get update
 
 # Create Tools directory
 mkdir -p ~/Tools/Linux
@@ -15,7 +15,7 @@ cp ./pyproject.toml ~/Tools
 poetry --directory ~/Tools install
 
 # Install apt packages
-sudo apt install -y \
+sudo apt-get install -y \
   seclists \
   enum4linux-ng \
   ffuf \
