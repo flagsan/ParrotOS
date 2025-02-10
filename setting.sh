@@ -1,5 +1,5 @@
 #!/bin/bash
-# Prerequires: git clone https://github.com/yp-ww/ParrotOS.git
+# Prerequires: git clone https://github.com/flagsan/ParrotOS.git
 
 sudo apt update
 
